@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Y6W-OH-hqX">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--First Screen View Controller-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController storyboardIdentifier="FirstScreenViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Y6W-OH-hqX" customClass="FirstScreenViewController" customModule="EnergyCostCalculator" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Generic Electrical Energy Cost Calculator" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KSi-Je-DHT">
+                                <rect key="frame" x="30" y="209" width="333" height="52.666666666666686"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="22"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Service Number" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="zuX-LQ-kI8">
+                                <rect key="frame" x="30" y="321.66666666666669" width="333" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Current meter" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="30c-JW-lac">
+                                <rect key="frame" x="30" y="385.66666666666669" width="333" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hnh-rg-8y5">
+                                <rect key="frame" x="151" y="459.66666666666669" width="91" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Submit"/>
+                                <connections>
+                                    <action selector="didTapSubmit:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="gWq-Bf-Xfd"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="v220117" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oPz-xU-Xgm">
+                                <rect key="frame" x="168.33333333333334" y="790" width="56.666666666666657" height="18"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Hnh-rg-8y5" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="151" id="1r4-1r-Wkl"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="Hnh-rg-8y5" secondAttribute="trailing" constant="151" id="2da-IP-bn2"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="zuX-LQ-kI8" secondAttribute="trailing" constant="30" id="2sv-gm-b8e"/>
+                            <constraint firstItem="Hnh-rg-8y5" firstAttribute="top" secondItem="30c-JW-lac" secondAttribute="bottom" constant="40" id="Bz4-F4-Ap2"/>
+                            <constraint firstItem="oPz-xU-Xgm" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="Gvi-ce-aw6"/>
+                            <constraint firstItem="zuX-LQ-kI8" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="30" id="IjJ-KW-3lh"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="KSi-Je-DHT" secondAttribute="trailing" constant="30" id="MX0-by-wZY"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="30c-JW-lac" secondAttribute="trailing" constant="30" id="QWB-Qz-8tX"/>
+                            <constraint firstItem="zuX-LQ-kI8" firstAttribute="top" secondItem="KSi-Je-DHT" secondAttribute="bottom" constant="60" id="Qcc-7i-7cb"/>
+                            <constraint firstItem="KSi-Je-DHT" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="StK-TL-Y7h"/>
+                            <constraint firstItem="30c-JW-lac" firstAttribute="top" secondItem="zuX-LQ-kI8" secondAttribute="bottom" constant="30" id="WuH-Ch-7iu"/>
+                            <constraint firstItem="30c-JW-lac" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="30" id="aeg-Gm-tfh"/>
+                            <constraint firstItem="KSi-Je-DHT" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="150" id="cht-PT-M2s"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="oPz-xU-Xgm" secondAttribute="bottom" constant="10" id="iVg-Wo-TDc"/>
+                            <constraint firstItem="KSi-Je-DHT" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="30" id="wTX-RK-Jd3"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="currentMeter" destination="30c-JW-lac" id="bDs-7c-KeL"/>
+                        <outlet property="serviceNumber" destination="zuX-LQ-kI8" id="Jj2-Ij-Ulz"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="72.51908396946564" y="-34.507042253521128"/>
+        </scene>
+    </scenes>
+</document>

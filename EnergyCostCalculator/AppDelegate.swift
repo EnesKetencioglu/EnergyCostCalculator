@@ -14,7 +14,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
-        Thread.sleep(forTimeInterval: 5)
+        Thread.sleep(forTimeInterval: 1)
         let mainStoryboard: UIStoryboard = UIStoryboard(name: "SplashScreenView", bundle: nil)
         let splashView = mainStoryboard.instantiateViewController(withIdentifier: "SplashScreenViewController") as! SplashScreenViewController
         let window = UIWindow(frame: UIScreen.main.bounds)

@@ -23,7 +23,7 @@ class FirstScreenViewController: BaseViewController,FirstScreenViewProtocol {
         guard let serviceNumber = self.serviceNumber.text else {
             return
         }
-        var currentMeter: Int?
+        var currentMeter: Int? = nil
         if let meterText = self.currentMeter.text, let meterValue = Int(meterText) {
             currentMeter = meterValue
         }
@@ -45,7 +45,7 @@ class FirstScreenViewController: BaseViewController,FirstScreenViewProtocol {
     
     func showMeterAlert() {
         hideLoadingAnimation()
-        let alertController = UIAlertController(title: "Invalid input", message: "Do not enter a negative value or a value smaller than the previous counter value, last value is", preferredStyle: .alert)
+        let alertController = UIAlertController(title: "Invalid input", message: "Do not enter a negative value or a value smaller than the previous counter value!", preferredStyle: .alert)
         let okAction = UIAlertAction(title: "OK", style: .cancel, handler: nil)
         alertController.addAction(okAction)
         present(alertController, animated: true, completion: nil)

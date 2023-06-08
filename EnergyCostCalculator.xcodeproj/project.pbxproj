@@ -1,0 +1,624 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BCACE4432A31C09500E8C6CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCACE4422A31C09500E8C6CF /* AppDelegate.swift */; };
+		BCACE4452A31C09500E8C6CF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCACE4442A31C09500E8C6CF /* SceneDelegate.swift */; };
+		BCACE4472A31C09500E8C6CF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCACE4462A31C09500E8C6CF /* ViewController.swift */; };
+		BCACE44A2A31C09500E8C6CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCACE4482A31C09500E8C6CF /* Main.storyboard */; };
+		BCACE44D2A31C09500E8C6CF /* EnergyCostCalculator.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BCACE44B2A31C09500E8C6CF /* EnergyCostCalculator.xcdatamodeld */; };
+		BCACE44F2A31C09600E8C6CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCACE44E2A31C09600E8C6CF /* Assets.xcassets */; };
+		BCACE4522A31C09600E8C6CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCACE4502A31C09600E8C6CF /* LaunchScreen.storyboard */; };
+		BCACE45D2A31C09600E8C6CF /* EnergyCostCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCACE45C2A31C09600E8C6CF /* EnergyCostCalculatorTests.swift */; };
+		BCACE4672A31C09600E8C6CF /* EnergyCostCalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCACE4662A31C09600E8C6CF /* EnergyCostCalculatorUITests.swift */; };
+		BCACE4692A31C09600E8C6CF /* EnergyCostCalculatorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCACE4682A31C09600E8C6CF /* EnergyCostCalculatorUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BCACE4592A31C09600E8C6CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BCACE4372A31C09500E8C6CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BCACE43E2A31C09500E8C6CF;
+			remoteInfo = EnergyCostCalculator;
+		};
+		BCACE4632A31C09600E8C6CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BCACE4372A31C09500E8C6CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BCACE43E2A31C09500E8C6CF;
+			remoteInfo = EnergyCostCalculator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BCACE43F2A31C09500E8C6CF /* EnergyCostCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EnergyCostCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCACE4422A31C09500E8C6CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BCACE4442A31C09500E8C6CF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BCACE4462A31C09500E8C6CF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BCACE4492A31C09500E8C6CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BCACE44C2A31C09500E8C6CF /* EnergyCostCalculator.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EnergyCostCalculator.xcdatamodel; sourceTree = "<group>"; };
+		BCACE44E2A31C09600E8C6CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BCACE4512A31C09600E8C6CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BCACE4532A31C09600E8C6CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCACE4582A31C09600E8C6CF /* EnergyCostCalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EnergyCostCalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCACE45C2A31C09600E8C6CF /* EnergyCostCalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnergyCostCalculatorTests.swift; sourceTree = "<group>"; };
+		BCACE4622A31C09600E8C6CF /* EnergyCostCalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EnergyCostCalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCACE4662A31C09600E8C6CF /* EnergyCostCalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnergyCostCalculatorUITests.swift; sourceTree = "<group>"; };
+		BCACE4682A31C09600E8C6CF /* EnergyCostCalculatorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnergyCostCalculatorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BCACE43C2A31C09500E8C6CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCACE4552A31C09600E8C6CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCACE45F2A31C09600E8C6CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BCACE4362A31C09500E8C6CF = {
+			isa = PBXGroup;
+			children = (
+				BCACE4412A31C09500E8C6CF /* EnergyCostCalculator */,
+				BCACE45B2A31C09600E8C6CF /* EnergyCostCalculatorTests */,
+				BCACE4652A31C09600E8C6CF /* EnergyCostCalculatorUITests */,
+				BCACE4402A31C09500E8C6CF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BCACE4402A31C09500E8C6CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BCACE43F2A31C09500E8C6CF /* EnergyCostCalculator.app */,
+				BCACE4582A31C09600E8C6CF /* EnergyCostCalculatorTests.xctest */,
+				BCACE4622A31C09600E8C6CF /* EnergyCostCalculatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BCACE4412A31C09500E8C6CF /* EnergyCostCalculator */ = {
+			isa = PBXGroup;
+			children = (
+				BCACE4422A31C09500E8C6CF /* AppDelegate.swift */,
+				BCACE4442A31C09500E8C6CF /* SceneDelegate.swift */,
+				BCACE4462A31C09500E8C6CF /* ViewController.swift */,
+				BCACE4482A31C09500E8C6CF /* Main.storyboard */,
+				BCACE44E2A31C09600E8C6CF /* Assets.xcassets */,
+				BCACE4502A31C09600E8C6CF /* LaunchScreen.storyboard */,
+				BCACE4532A31C09600E8C6CF /* Info.plist */,
+				BCACE44B2A31C09500E8C6CF /* EnergyCostCalculator.xcdatamodeld */,
+			);
+			path = EnergyCostCalculator;
+			sourceTree = "<group>";
+		};
+		BCACE45B2A31C09600E8C6CF /* EnergyCostCalculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				BCACE45C2A31C09600E8C6CF /* EnergyCostCalculatorTests.swift */,
+			);
+			path = EnergyCostCalculatorTests;
+			sourceTree = "<group>";
+		};
+		BCACE4652A31C09600E8C6CF /* EnergyCostCalculatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BCACE4662A31C09600E8C6CF /* EnergyCostCalculatorUITests.swift */,
+				BCACE4682A31C09600E8C6CF /* EnergyCostCalculatorUITestsLaunchTests.swift */,
+			);
+			path = EnergyCostCalculatorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BCACE43E2A31C09500E8C6CF /* EnergyCostCalculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCACE46C2A31C09600E8C6CF /* Build configuration list for PBXNativeTarget "EnergyCostCalculator" */;
+			buildPhases = (
+				BCACE43B2A31C09500E8C6CF /* Sources */,
+				BCACE43C2A31C09500E8C6CF /* Frameworks */,
+				BCACE43D2A31C09500E8C6CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EnergyCostCalculator;
+			productName = EnergyCostCalculator;
+			productReference = BCACE43F2A31C09500E8C6CF /* EnergyCostCalculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BCACE4572A31C09600E8C6CF /* EnergyCostCalculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCACE46F2A31C09600E8C6CF /* Build configuration list for PBXNativeTarget "EnergyCostCalculatorTests" */;
+			buildPhases = (
+				BCACE4542A31C09600E8C6CF /* Sources */,
+				BCACE4552A31C09600E8C6CF /* Frameworks */,
+				BCACE4562A31C09600E8C6CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BCACE45A2A31C09600E8C6CF /* PBXTargetDependency */,
+			);
+			name = EnergyCostCalculatorTests;
+			productName = EnergyCostCalculatorTests;
+			productReference = BCACE4582A31C09600E8C6CF /* EnergyCostCalculatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BCACE4612A31C09600E8C6CF /* EnergyCostCalculatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCACE4722A31C09600E8C6CF /* Build configuration list for PBXNativeTarget "EnergyCostCalculatorUITests" */;
+			buildPhases = (
+				BCACE45E2A31C09600E8C6CF /* Sources */,
+				BCACE45F2A31C09600E8C6CF /* Frameworks */,
+				BCACE4602A31C09600E8C6CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BCACE4642A31C09600E8C6CF /* PBXTargetDependency */,
+			);
+			name = EnergyCostCalculatorUITests;
+			productName = EnergyCostCalculatorUITests;
+			productReference = BCACE4622A31C09600E8C6CF /* EnergyCostCalculatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BCACE4372A31C09500E8C6CF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					BCACE43E2A31C09500E8C6CF = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					BCACE4572A31C09600E8C6CF = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = BCACE43E2A31C09500E8C6CF;
+					};
+					BCACE4612A31C09600E8C6CF = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = BCACE43E2A31C09500E8C6CF;
+					};
+				};
+			};
+			buildConfigurationList = BCACE43A2A31C09500E8C6CF /* Build configuration list for PBXProject "EnergyCostCalculator" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BCACE4362A31C09500E8C6CF;
+			productRefGroup = BCACE4402A31C09500E8C6CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BCACE43E2A31C09500E8C6CF /* EnergyCostCalculator */,
+				BCACE4572A31C09600E8C6CF /* EnergyCostCalculatorTests */,
+				BCACE4612A31C09600E8C6CF /* EnergyCostCalculatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BCACE43D2A31C09500E8C6CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCACE4522A31C09600E8C6CF /* LaunchScreen.storyboard in Resources */,
+				BCACE44F2A31C09600E8C6CF /* Assets.xcassets in Resources */,
+				BCACE44A2A31C09500E8C6CF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCACE4562A31C09600E8C6CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCACE4602A31C09600E8C6CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BCACE43B2A31C09500E8C6CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCACE4472A31C09500E8C6CF /* ViewController.swift in Sources */,
+				BCACE4432A31C09500E8C6CF /* AppDelegate.swift in Sources */,
+				BCACE44D2A31C09500E8C6CF /* EnergyCostCalculator.xcdatamodeld in Sources */,
+				BCACE4452A31C09500E8C6CF /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCACE4542A31C09600E8C6CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCACE45D2A31C09600E8C6CF /* EnergyCostCalculatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCACE45E2A31C09600E8C6CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCACE4672A31C09600E8C6CF /* EnergyCostCalculatorUITests.swift in Sources */,
+				BCACE4692A31C09600E8C6CF /* EnergyCostCalculatorUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BCACE45A2A31C09600E8C6CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BCACE43E2A31C09500E8C6CF /* EnergyCostCalculator */;
+			targetProxy = BCACE4592A31C09600E8C6CF /* PBXContainerItemProxy */;
+		};
+		BCACE4642A31C09600E8C6CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BCACE43E2A31C09500E8C6CF /* EnergyCostCalculator */;
+			targetProxy = BCACE4632A31C09600E8C6CF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BCACE4482A31C09500E8C6CF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCACE4492A31C09500E8C6CF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BCACE4502A31C09600E8C6CF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCACE4512A31C09600E8C6CF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BCACE46A2A31C09600E8C6CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BCACE46B2A31C09600E8C6CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BCACE46D2A31C09600E8C6CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JKX44C3NMV;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EnergyCostCalculator/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = enes.ketencioglu.EnergyCostCalculator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BCACE46E2A31C09600E8C6CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JKX44C3NMV;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EnergyCostCalculator/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = enes.ketencioglu.EnergyCostCalculator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BCACE4702A31C09600E8C6CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JKX44C3NMV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = enes.ketencioglu.EnergyCostCalculatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EnergyCostCalculator.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/EnergyCostCalculator";
+			};
+			name = Debug;
+		};
+		BCACE4712A31C09600E8C6CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JKX44C3NMV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = enes.ketencioglu.EnergyCostCalculatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EnergyCostCalculator.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/EnergyCostCalculator";
+			};
+			name = Release;
+		};
+		BCACE4732A31C09600E8C6CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JKX44C3NMV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = enes.ketencioglu.EnergyCostCalculatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EnergyCostCalculator;
+			};
+			name = Debug;
+		};
+		BCACE4742A31C09600E8C6CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JKX44C3NMV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = enes.ketencioglu.EnergyCostCalculatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EnergyCostCalculator;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BCACE43A2A31C09500E8C6CF /* Build configuration list for PBXProject "EnergyCostCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCACE46A2A31C09600E8C6CF /* Debug */,
+				BCACE46B2A31C09600E8C6CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCACE46C2A31C09600E8C6CF /* Build configuration list for PBXNativeTarget "EnergyCostCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCACE46D2A31C09600E8C6CF /* Debug */,
+				BCACE46E2A31C09600E8C6CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCACE46F2A31C09600E8C6CF /* Build configuration list for PBXNativeTarget "EnergyCostCalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCACE4702A31C09600E8C6CF /* Debug */,
+				BCACE4712A31C09600E8C6CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCACE4722A31C09600E8C6CF /* Build configuration list for PBXNativeTarget "EnergyCostCalculatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCACE4732A31C09600E8C6CF /* Debug */,
+				BCACE4742A31C09600E8C6CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BCACE44B2A31C09500E8C6CF /* EnergyCostCalculator.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BCACE44C2A31C09500E8C6CF /* EnergyCostCalculator.xcdatamodel */,
+			);
+			currentVersion = BCACE44C2A31C09500E8C6CF /* EnergyCostCalculator.xcdatamodel */;
+			path = EnergyCostCalculator.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BCACE4372A31C09500E8C6CF /* Project object */;
+}

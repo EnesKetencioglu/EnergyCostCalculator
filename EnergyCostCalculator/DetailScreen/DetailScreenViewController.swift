@@ -44,12 +44,19 @@ class DetailScreenViewController: BaseViewController,DetailScreenViewProtocol {
 }
 extension DetailScreenViewController: UITableViewDelegate,UITableViewDataSource{
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 3
+    
+        if let count = lastCosts?.count{
+            return count > 3 ? 3 : count
+        }else{
+            return 0
+        }
     }
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "BillCell",for: indexPath) as! BillCell
-        cell.title.text = String((self.lastCosts?[indexPath.row].lastReadings)!)
-        cell.cost.text = String((self.lastCosts?[indexPath.row].invoiceValue)!)
+        if let list = self.lastCosts, !list.isEmpty{
+            cell.title.text = String((self.lastCosts?[indexPath.row].lastReadings)!)
+            cell.cost.text = String((self.lastCosts?[indexPath.row].invoiceValue)!)
+        }
         return cell
     }
     
